@@ -37,8 +37,9 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" ></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only"> toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -52,7 +53,7 @@
 					<li>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="contact.html">Contactez-nous</a>
 					</li>
 				</ul>
 			</div>
@@ -83,15 +84,15 @@
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
-			<form class="col-sm-6">
+			<form class="col-sm-6" method="POST">
 					<label for="name"><strong>Name</strong></label>
-					<input type="text" id="name" class="form-control"required>
-					<label for="name"><strong>Email</strong></label>
-					<input type="email" id="mail" class="form-control"required>
-					<label for="txt"><strong>Comment vous nous avez connus?</strong></label>
-					<input type="texte" id="info" class="form-control"required>
-					<label for="txt"><strong>Brief de votre projet</strong></label>
-					<input type="texte" id="info" class="form-control"required>
+					<input type="text" id="name" class="form-control" required>
+					<label for="mail"><strong>Email</strong></label>
+					<input type="email" id="mail" class="form-control" required>
+					<label for="info"><strong>Comment vous nous avez connus?</strong></label>
+					<input type="text" id="info" class="form-control" required>
+					<label for="infos"><strong>Brief de votre projet</strong></label>
+					<input type="text" id="infos" class="form-control" required>
 
 					<button class=" btn btn-lg btn-rd btn-clean cta-hero btn-atomic-tangerine text-center" type="submit">
 						Envoyer
@@ -99,11 +100,11 @@
 			</form>
 		</div>
 		<div class="col-sm-12">
-				<adress>
-					<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
-					<br>2 place Sathonay 69001 Lyon
-					<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</adress>
+				<div>
+					<a href="mailto:contact@lachouetteagence.com"><p>contact@lachouetteagence.com</p></a>
+					<p>2, place Sathonay 69001 Lyon</p>
+					<p>Ouvert de 9h à 18h, du lundi au vendredi</p>
+				</div>
 		</div>
 		
 	</div>
@@ -126,28 +127,41 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="https://twitter.com/"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="https://fr-fr.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href=" https://dribbble.com/session/new"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 text-center">
+						<h2>Partenaires</h2>
+							<ul class="partners">
+								<li><a href="voiture.com">voiture.com</a></li>
+								<li><a href="pizza.com">pizza.com</a></li>
+								<li><a href="matoiture.com">matoiture.com</a></li>
+								<li><a href="immobilierseo.com">immobilierseo.com</a></li>
+							</ul>		
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
 </footer>
 <!-- Footer - bloc-8 END -->
 
