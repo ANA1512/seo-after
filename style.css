@@ -64,7 +64,6 @@ a:hover {
 
 
 
-
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -678,9 +677,10 @@ a {
     font-weight: 400;
     color: #424242!important;
 }
-.citation, .auteur, {
+.citation,
+.auteur {
 
-    color:#424242;
+    color: #424242;
 }
 
 .container {
