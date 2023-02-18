@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="contact chouette agence Lyon">
-    <meta name="description" content="Contactez la chouette agence spécialisée en webdesign. Notre équipe créative et dynamique répondra à toutes questions.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta charset="utf-8">
 	<title>Contact | La chouette agence </title>
+    <meta name="description" content="La chouette agence est spécialisée en web design. 
+	Elle accompagne les entreprises en leur créant une identité visuelle adapté à leurs besoins.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    
 
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
+	<link rel="shortcut icon" type="image/png" href="favicon.webp">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -15,12 +16,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
     
-	<script src="./js/jquery-2.1.0.js" async ></script>
+	<script src="./js/jquery-min-2.1.0.js" async></script>
 	<script src="./js/bootstrap.min.js" async></script>
 	<script src="./js/blocs.min.js" async></script>
-	<script src="./js/jqBootstrapValidation.min.js" async></script>
-	<script src="./js/formHandler.min.js" async></script>
-  
+	<script src="./js/jquery.touchSwipe-min.js" async></script>
+	<script src="./js/gmaps-min.js"async></script>
 
     
 <!-- Analytics -->
@@ -37,21 +37,21 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="atlanta web design logo" height="40" ></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="atlanta web design logo" class="main-logo" ></a>
+				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1"  >
 					<span class="sr-only"> toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
+					
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div class=" navbar-collapse navbar-1 special-dropdown-nav collapse">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
-					<li>
-					</li>
+					
 					<li>
 						<a href="contact.html">Contactez-nous</a>
 					</li>
@@ -60,6 +60,7 @@
 		</nav>
 	</div>
 </header>
+
 <!-- bloc-0 END OF NAVIAGATION -->
 
 <!-- bloc-6 -->
@@ -84,7 +85,7 @@
 <div class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
-			<form class="col-sm-6" method="POST">
+			<form class="col-sm-5" method="POST">
 					<label for="name"><strong>Name</strong></label>
 					<input type="text" id="name" class="form-control" required>
 					<label for="mail"><strong>Email</strong></label>
@@ -111,9 +112,9 @@
 </div>
 <!-- bloc-7 END -->
 
-<!-- ScrollToTop Button -->
+<!-- ScrollToTop Button 
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
+ScrollToTop Button END-->
 
 
 <!-- Footer - bloc-8 -->
@@ -146,17 +147,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-sm-4 text-center">
-						<h2>Partenaires</h2>
-							<ul class="partners">
-								<li><a href="voiture.com">voiture.com</a></li>
-								<li><a href="pizza.com">pizza.com</a></li>
-								<li><a href="matoiture.com">matoiture.com</a></li>
-								<li><a href="immobilierseo.com">immobilierseo.com</a></li>
-							</ul>		
-					</div>
-				</div>
+		
 			</div>
 		</div>
 	</div>
